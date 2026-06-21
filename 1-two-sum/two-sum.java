@@ -1,7 +1,7 @@
 import java.util.*;
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-       /* Arrays.sort(nums);
+      /*  Arrays.sort(nums);
         int i=0;
         int j = nums.length-1;
         while(i<j){
@@ -21,6 +21,7 @@ class Solution {
     }
 }
 */
+
 HashMap<Integer,Integer> map = new HashMap<>();
 for(int i=0;i<nums.length;i++){
     int complement = target-nums[i];
