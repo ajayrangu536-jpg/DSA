@@ -18,8 +18,7 @@ class Solution {
                 left=mid+1;
             }
         }
-         else {
-            if(nums[mid]<=target&&target<=nums[right]){
+         else if(nums[mid]<=target&&target<=nums[right]){
             left =  mid+1;
          }
          else{
@@ -28,7 +27,6 @@ class Solution {
         
 
          }
-    }
     return -1;
     }
 }
