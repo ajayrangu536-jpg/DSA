@@ -9,7 +9,7 @@ class Solution {
     }
     int left =1;
     int right=max;
-    int ans = max;
+    int ans = 0;
     while(left<=right){
         int mid = left+(right-left)/2;
         long totalhours=0;
