@@ -4,10 +4,11 @@ class Solution {
         for(int i=0;i<time.length;i++){
             actualTrips+= mid / time[i];
         }
-        if(actualTrips>=totalTrips){
-            return true;
-        }
-        return false;
+        //if(actualTrips>=totalTrips){
+           // return true;
+        //}
+        //return false;
+        return actualTrips>=totalTrips;
     }
     public long minimumTime(int[] time, int totalTrips) {
         long min=Integer.MAX_VALUE;
